@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#scoreKeeper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 2em;
+}
+
+#instructions {
+    font-size: 3em;
+    text-align: center;
+}
+
+#buttonDiv {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.gameButton {
+    height: 5em;
+    width: 5em;
+    font-size: 2em;
+    background-color: transparent;
+    color: white;
+    border: 1px solid red;
+    cursor: pointer;
+    border-radius: 15%;
+    margin-top: 5%;
+}
+
+.gameButton:hover {
+    background-color: red;
+    color: black;
+}
+
+span {
+    display: block;
+}
+
+#startDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#startButton {
+    background-color: transparent;
+    color: white;
+    border: 1px solid aqua;
+    border-radius: 15%;
+    font-size: 2em;
+}
+
+#startButton:hover {
+    background-color: aqua;
+    color: black;
+    margin: auto;
+    
+}
